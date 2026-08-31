@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Header\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Owner.h">
+      <Filter>Header\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Header\API</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFStruct.h">
+      <Filter>Header\API</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Header\API</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerDat.h">
+      <Filter>Header\CO</Filter>
+    </ClInclude>
+    <ClInclude Include="CSnprintf.h">
+      <Filter>Header\CO</Filter>
+    </ClInclude>
+    <ClInclude Include="CShellApi.h">
+      <Filter>Header\CO</Filter>
+    </ClInclude>
+    <ClInclude Include="OwnerState.h">
+      <Filter>Header\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Header\API</Filter>
+    </ClInclude>
+    <ClInclude Include="CTqPacket.h">
+      <Filter>Header\CO</Filter>
+    </ClInclude>
+    <ClInclude Include="PRW.h">
+      <Filter>Header\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header\API</Filter>
+    </ClInclude>
+    <ClInclude Include="CMsgHandler.h">
+      <Filter>Header\Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="RegKey.h">
+      <Filter>Header\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="CFileEditor.h">
+      <Filter>Header\CO</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseHook.h">
+      <Filter>Header\ZFShield</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadBool.h">
+      <Filter>Header\ZFShield</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryShield.h">
+      <Filter>Header\ZFShield</Filter>
+    </ClInclude>
+    <ClInclude Include="CMD5.h">
+      <Filter>Header\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Discord.h">
+      <Filter>Header\Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFHash.h">
+      <Filter>Header\API</Filter>
+    </ClInclude>
+    <ClInclude Include="CLdLibrary.h">
+      <Filter>Header\CO</Filter>
+    </ClInclude>
+    <ClInclude Include="CWinSocket.h">
+      <Filter>Header\CO</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatEngine.h">
+      <Filter>Header\ZFShield</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\backoff.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\connection.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\msg_queue.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\serialization.h">
+      <Filter>Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessShield.h">
+      <Filter>Header\ZFShield</Filter>
+    </ClInclude>
+    <ClInclude Include="CipherPacket.h">
+      <Filter>Header\Network\Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlashFix.h">
+      <Filter>Header\CO</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgFileHash.h">
+      <Filter>Header\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleProtection.h">
+      <Filter>Header\ZFShield</Filter>
+    </ClInclude>
+    <ClInclude Include="CGFXAddres.h">
+      <Filter>Header\CO</Filter>
+    </ClInclude>
+    <ClInclude Include="CHotKey.h">
+      <Filter>Header\CO</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header\API</Filter>
+    </ClInclude>
+    <ClInclude Include="CProcessProtection.h">
+      <Filter>Header\ZFShield</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtectionThread.h">
+      <Filter>Header\ZFShield</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Owner.cpp">
+      <Filter>Source\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerDat.cpp">
+      <Filter>Source\CO</Filter>
+    </ClCompile>
+    <ClCompile Include="CSnprintf.cpp">
+      <Filter>Source\CO</Filter>
+    </ClCompile>
+    <ClCompile Include="CShellApi.cpp">
+      <Filter>Source\CO</Filter>
+    </ClCompile>
+    <ClCompile Include="OwnerState.cpp">
+      <Filter>Source\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="CTqPacket.cpp">
+      <Filter>Source\CO</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>Source\API</Filter>
+    </ClCompile>
+    <ClCompile Include="CMsgHandler.cpp">
+      <Filter>Source\Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="RegKey.cpp">
+      <Filter>Source\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="CFileEditor.cpp">
+      <Filter>Source\CO</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseHook.cpp">
+      <Filter>Source\ZFShield</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadBool.cpp">
+      <Filter>Source\ZFShield</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryShield.cpp">
+      <Filter>Source\ZFShield</Filter>
+    </ClCompile>
+    <ClCompile Include="CLdLibrary.cpp">
+      <Filter>Source\CO</Filter>
+    </ClCompile>
+    <ClCompile Include="CWinSocket.cpp">
+      <Filter>Source\CO</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatEngine.cpp">
+      <Filter>Source\ZFShield</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\serialization.cpp">
+      <Filter>Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="Discord.cpp">
+      <Filter>Source\Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessShield.cpp">
+      <Filter>Source\ZFShield</Filter>
+    </ClCompile>
+    <ClCompile Include="CipherPacket.cpp">
+      <Filter>Source\Network\Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="CFlashFix.cpp">
+      <Filter>Source\CO</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgFileHash.cpp">
+      <Filter>Source\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleProtection.cpp">
+      <Filter>Source\ZFShield</Filter>
+    </ClCompile>
+    <ClCompile Include="CGFXAddres.cpp">
+      <Filter>Source\CO</Filter>
+    </ClCompile>
+    <ClCompile Include="CHotKey.cpp">
+      <Filter>Source\CO</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source\API</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtectionThread.cpp">
+      <Filter>Source\ZFShield</Filter>
+    </ClCompile>
+    <ClCompile Include="CProcessProtection.cpp">
+      <Filter>Source\ZFShield</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{97fb2345-6256-459d-9760-0e47714e90d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\API">
+      <UniqueIdentifier>{6c588217-f538-4152-a500-1d38eddeb554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Instance">
+      <UniqueIdentifier>{dab74b47-8930-4d9a-8202-3cb4767af1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\CO">
+      <UniqueIdentifier>{8fa00b16-2f3c-4fd5-a0ac-ab7db475281e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Handler">
+      <UniqueIdentifier>{acedff07-d6c6-42ba-8e83-a080ce1f7b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\ZFShield">
+      <UniqueIdentifier>{0100cde9-56b4-4581-aef8-3bec59c47956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{7d1d7e32-8625-4ec5-ad25-f6a03c2b8fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\API">
+      <UniqueIdentifier>{212684bb-32bc-4c16-8e60-9b663f19f3d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Instance">
+      <UniqueIdentifier>{d506c4b2-f27b-4419-abbd-b710d93cf69c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\CO">
+      <UniqueIdentifier>{04f4545c-8e98-442c-8738-bbc63309a4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Handler">
+      <UniqueIdentifier>{a3cf5664-dd19-4aba-a3c4-eb6b81ea0240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ZFShield">
+      <UniqueIdentifier>{3f70d08d-a99a-4ee0-8d1b-6b767f97b561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord">
+      <UniqueIdentifier>{e65b99cd-63d6-418f-a7d8-7fb3a6537ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Network">
+      <UniqueIdentifier>{23ba8678-5938-44dd-b63c-3774a0b8abf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Network">
+      <UniqueIdentifier>{29ff7225-2e9d-47dd-98a7-7cb67f6ae81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Network\Cryptography">
+      <UniqueIdentifier>{43536891-f50d-4267-bce1-c44bd66bdb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Network\Cryptography">
+      <UniqueIdentifier>{57773edb-4c16-437e-9f08-f1d737528dde}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
